@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://digitalottomans.github.io/test1/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://d367a213-0724-46ff-906f-5c163b9b3c3b",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://94c8d4fd-77ee-4b6d-ae16-0a5d03bb8ba7",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://bf6cddbe-e5b6-4946-8d70-84df4120507e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-3007_202105/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-3007_202105",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://94c8d4fd-77ee-4b6d-ae16-0a5d03bb8ba7"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c33c0f34-2050-4b6b-95e3-cfcbd76adb44",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8be41ab6-66a5-4b0e-816e-a70766ab7b46",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-3007_202105/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-3007_202105",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://c33c0f34-2050-4b6b-95e3-cfcbd76adb44"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
