@@ -5,9 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : null,
-    "@id" : "https://digitalottomans.github.io/test1/manifests/test1.json",
-    "label" : null
-  } ]
+  "items" : [ ]
 }
